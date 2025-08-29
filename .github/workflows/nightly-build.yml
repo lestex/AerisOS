@@ -27,5 +27,5 @@ jobs:
       uses: actions/upload-artifact@v4
       with:
         name: aeris-iso-${{ github.run_number }}
-        path: out/*.iso
+        path: release/*.iso
         retention-days: 30
